@@ -1,9 +1,12 @@
 package com.test.jenkins;
 
-public class TestClass {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class TestClass {
+    
+	@Test
+	public void testHello() {
+		System.out.println("Test Class");
 
 	}
 
